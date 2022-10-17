@@ -1,0 +1,66 @@
+/************tag selectors****************/
+
+body {
+    background-color: #F0F5F9;
+    
+ }
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+            
+    border-width: 5px;
+    width: 30%;
+    }
+h1 {
+    color: #08D9D6;
+    
+    background-color: #252A34;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 3px;
+    margin-bottom: -10px;
+
+    
+}
+h3{
+    color: #08D9D6;
+}
+
+a{
+    color: #FF2E63;
+}
+img:hover{
+    background-color: gold;
+}
+
+/********************class selectors*************** for group of elements-multiple class can use  */
+.history {
+    color: blue;
+    
+}
+.tags{
+    
+        width: 20px;
+        background-color:#252A34 ;
+       
+        border-radius: 4px;
+        padding: 3px;
+      
+}
+.apple{
+    border-radius: 100%;
+    background-color:#252A34 ;
+}
+.green{
+    background-color: red;
+}
+.red{
+    
+    background-color: green;
+}
+/********************id selector******************for perticular element-only one id at a time*/
+#heading{
+    color: #252A34;
+
+}
